@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ComponenteTablaComponent } from './componente-tabla/componente-tabla.component';
+import { TablaComponent } from './tabla/tabla.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponenteTablaComponent
+    TablaComponent
   ],
   imports: [
     BrowserModule
