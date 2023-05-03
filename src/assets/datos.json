@@ -1,0 +1,31 @@
+[
+    {
+      "userName": "Andrés Gómez",
+      "subject": "I cant login to my acount",
+      "customerSatisfaction": "100%",
+      "priority": "High",
+      "status": "Solved"
+    },
+    {
+      "userName": "Ana García",
+      "subject": "Slow response from server",
+      "customerSatisfaction": "80%",
+      "priority": "Medium",
+      "status": "Open"
+    },
+    {
+      "userName": "Juan Pérez",
+      "subject": "Forgot my password",
+      "customerSatisfaction": "90%",
+      "priority": "High",
+      "status": "Solved"
+    },
+    {
+      "userName": "María López",
+      "subject": "Can't access website",
+      "customerSatisfaction": "70%",
+      "priority": "Low",
+      "status": "Pending"
+    }
+  ]
+  

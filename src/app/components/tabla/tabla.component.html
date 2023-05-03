@@ -1,0 +1,37 @@
+<div class="container">
+
+    <div>
+        <select>
+            <option value="">All Status</option>
+            <option value="pending_option">Pending</option>
+            <option value="open_option">Open</option>
+            <option value="solved_option">Solved</option>
+        </select>
+
+        <button class="button_addfilter"> + Add Filter</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Subject</th>
+                <th>Customer Satisfaction</th>
+                <th>Priority</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let date of data">
+                <td>{{date.userName}}</td>
+                <td>{{date.subject}}</td>
+                <td>{{date.customerSatisfaction}}</td>
+                <td class="circle-td">
+                    <div class="circle" [ngClass]="{'high-priority': date.priority === 'High', 'medium-priority': date.priority === 'Medium', 'low-priority': date.priority === 'Low'}"></div>
+                    <div class="priority-text">{{date.priority}}</div>
+                </td>
+                <td>{{date.status}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
