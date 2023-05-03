@@ -1,14 +1,15 @@
 <div class="container">
 
     <div>
-        <select>
+        <select [(ngModel)]="selectedStatus" (change)="filterData();">
             <option value="">All Status</option>
-            <option value="pending_option">Pending</option>
-            <option value="open_option">Open</option>
-            <option value="solved_option">Solved</option>
-        </select>
+            <option value="Pending">Pending</option>
+            <option value="Open">Open</option>
+            <option value="Solved">Solved</option>
+          </select>
 
         <button class="button_addfilter"> + Add Filter</button>
+        <p class="data-count">{{dataCount}} request</p>
     </div>
     <table>
         <thead>
@@ -21,8 +22,8 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let date of data">
-                <td>{{date.userName}}</td>
+            <tr *ngFor="let date of filteredData">
+                <td><label><input type="checkbox" id="cbox" value="checkbox">{{date.userName}}</label><br></td>
                 <td>{{date.subject}}</td>
                 <td>{{date.customerSatisfaction}}</td>
                 <td class="circle-td">

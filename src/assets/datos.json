@@ -1,31 +1,163 @@
 [
     {
-      "userName": "Andrés Gómez",
-      "subject": "I cant login to my acount",
-      "customerSatisfaction": "100%",
-      "priority": "High",
-      "status": "Solved"
+        "userName": "Andrés Gómez",
+        "subject": "I cant login to my acount",
+        "customerSatisfaction": "100%",
+        "priority": "High",
+        "status": "Solved"
     },
     {
-      "userName": "Ana García",
-      "subject": "Slow response from server",
-      "customerSatisfaction": "80%",
-      "priority": "Medium",
-      "status": "Open"
+        "userName": "Ana García",
+        "subject": "Slow response from server",
+        "customerSatisfaction": "80%",
+        "priority": "Medium",
+        "status": "Open"
     },
     {
-      "userName": "Juan Pérez",
-      "subject": "Forgot my password",
-      "customerSatisfaction": "90%",
-      "priority": "High",
-      "status": "Solved"
+        "userName": "Juan Pérez",
+        "subject": "Forgot my password",
+        "customerSatisfaction": "90%",
+        "priority": "High",
+        "status": "Solved"
     },
     {
-      "userName": "María López",
-      "subject": "Can't access website",
-      "customerSatisfaction": "70%",
-      "priority": "Low",
-      "status": "Pending"
+        "userName": "María López",
+        "subject": "Can't access website",
+        "customerSatisfaction": "70%",
+        "priority": "Low",
+        "status": "Pending"
+    },
+    {
+        "userName": "Carla Hernández",
+        "subject": "Incorrect billing amount",
+        "customerSatisfaction": "95%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Pedro Martínez",
+        "subject": "Lost access to account",
+        "customerSatisfaction": "80%",
+        "priority": "High",
+        "status": "Pending"
+    },
+    {
+        "userName": "Luisa Morales",
+        "subject": "Payment error",
+        "customerSatisfaction": "85%",
+        "priority": "Low",
+        "status": "Solved"
+    },
+    {
+        "userName": "Jorge Fernández",
+        "subject": "Unable to download files",
+        "customerSatisfaction": "70%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Pedro Martinez",
+        "subject": "Need help with checkout process",
+        "customerSatisfaction": "85%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Lucia Rodriguez",
+        "subject": "Broken link on the homepage",
+        "customerSatisfaction": "95%",
+        "priority": "High",
+        "status": "Solved"
+    },
+    {
+        "userName": "Manuel Castro",
+        "subject": "Wrong product description",
+        "customerSatisfaction": "75%",
+        "priority": "Low",
+        "status": "Pending"
+    },
+    {
+        "userName": "Martha Flores",
+        "subject": "Product not delivered",
+        "customerSatisfaction": "60%",
+        "priority": "High",
+        "status": "Open"
+    },
+    {
+        "userName": "Sofia Vargas",
+        "subject": "Billing information incorrect",
+        "customerSatisfaction": "90%",
+        "priority": "Medium",
+        "status": "Solved"
+    },
+    {
+        "userName": "John Smith",
+        "subject": "Unable to access email",
+        "customerSatisfaction": "95%",
+        "priority": "High",
+        "status": "Open"
+    },
+    {
+        "userName": "Emily Brown",
+        "subject": "Printer not working",
+        "customerSatisfaction": "80%",
+        "priority": "Medium",
+        "status": "Solved"
+    },
+    {
+        "userName": "Robert Johnson",
+        "subject": "Server down",
+        "customerSatisfaction": "60%",
+        "priority": "High",
+        "status": "Pending"
+    },
+    {
+        "userName": "Lisa Taylor",
+        "subject": "Need help with software installation",
+        "customerSatisfaction": "90%",
+        "priority": "Low",
+        "status": "Open"
+    },
+    {
+        "userName": "Michael Davis",
+        "subject": "Lost files on computer",
+        "customerSatisfaction": "85%",
+        "priority": "Medium",
+        "status": "Solved"
+    },
+    {
+        "userName": "Jennifer Wilson",
+        "subject": "Cannot connect to Wi-Fi",
+        "customerSatisfaction": "75%",
+        "priority": "High",
+        "status": "Pending"
+    },
+    {
+        "userName": "William Thompson",
+        "subject": "Incorrect billing statement",
+        "customerSatisfaction": "80%",
+        "priority": "Low",
+        "status": "Solved"
+    },
+    {
+        "userName": "Elizabeth Martinez",
+        "subject": "Need to update contact information",
+        "customerSatisfaction": "95%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "David Jackson",
+        "subject": "Computer virus",
+        "customerSatisfaction": "70%",
+        "priority": "High",
+        "status": "Solved"
+    },
+    {
+        "userName": "Megan Anderson",
+        "subject": "Problem with email attachments",
+        "customerSatisfaction": "90%",
+        "priority": "Low",
+        "status": "Pending"
     }
-  ]
-  
+]

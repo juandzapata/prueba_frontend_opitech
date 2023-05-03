@@ -30,16 +30,16 @@ table td{
 
 .button_addfilter {
     margin: 10px;
-    border: 2px solid green;
+    border: 2px solid rgb(51, 183, 51);
     background-color: transparent;
     padding: 10px 15px;
-    color: green;
+    color: rgb(51, 183, 51);
     font-weight: bold;
     border-radius: 5px;
   }
   
 .button_addfilter:hover {
-    background-color: green;
+    background-color: rgb(51, 183, 51);
     color: white;
     cursor: pointer;
 }
@@ -80,11 +80,39 @@ option {
     background-color: rgb(60, 170, 255);
 }
 
-@media screen and (max-width: 768px) {
-    table {
-      margin: 10px auto;
-    }
+
+input[type="checkbox"] {
+    content: "";
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+    
+input[type="checkbox"]:hover {
+    box-shadow: 0 0 5px rgba(91, 76, 255, 0.5);
 }
 
+.data-count{
+    margin: 10px;    
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 10vh 10vh;
+      }
+    
+      table {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+      }
+    
+      th, td {
+        padding: 5px;
+      }
+}
 
 
