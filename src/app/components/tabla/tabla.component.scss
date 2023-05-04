@@ -44,6 +44,24 @@ table td{
     cursor: pointer;
 }
 
+.confirmation-button{
+    margin: 10px;
+    border: 2px solid rgb(51, 183, 51);
+    background-color: rgb(51, 183, 51);
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.confirmation-button:hover{
+    background-color: rgb(86, 230, 86);
+    border: 2px solid rgb(86, 230, 86);
+    box-shadow: 0 0 5px rgba(91, 76, 255, 0.5);
+    color: white;
+    cursor: pointer;
+}
+
 select {    
     padding: 10px 15px;
     border: 1px solid #ccc;
@@ -99,20 +117,60 @@ input[type="checkbox"]:hover {
     font-weight: bold;
 }
 
+.title-card{
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.select-card{
+    margin: 20px; 
+}
+
+.card{
+    position: absolute;
+    top: 40%;        
+    margin: 0 auto;
+    padding: 10px;   
+    width: 50%;
+    height: 20%;
+    border: 1px solid #a19f9f;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(91, 76, 255, 0.5);
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+  }
+
 @media screen and (max-width: 768px) {
     .container {
         margin: 10vh 10vh;
-      }
-    
-      table {
-        width: 100%;
-        max-width: 768px;
-        margin: 0 auto;
-      }
-    
-      th, td {
+    }
+
+    table {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    th, td {
         padding: 5px;
-      }
+    }
 }
 
 

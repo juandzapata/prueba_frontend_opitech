@@ -1,14 +1,12 @@
 <div class="container">
-
     <div>
-        <select [(ngModel)]="selectedStatus" (change)="filterData();">
+        <select [(ngModel)]="selectedStatus" (change)="filterStatusData()">
             <option value="">All Status</option>
             <option value="Pending">Pending</option>
             <option value="Open">Open</option>
             <option value="Solved">Solved</option>
-          </select>
-
-        <button class="button_addfilter"> + Add Filter</button>
+        </select>
+        <button class="button_addfilter" (click)="showCard()">+ Add Filter</button>
         <p class="data-count">{{dataCount}} request</p>
     </div>
     <table>
@@ -27,12 +25,29 @@
                 <td>{{date.subject}}</td>
                 <td>{{date.customerSatisfaction}}</td>
                 <td class="circle-td">
-                    <div class="circle" [ngClass]="{'high-priority': date.priority === 'High', 'medium-priority': date.priority === 'Medium', 'low-priority': date.priority === 'Low'}"></div>
+                    <div class="circle"
+                        [ngClass]="{'high-priority': date.priority === 'High', 'medium-priority': date.priority === 'Medium', 'low-priority': date.priority === 'Low'}">
+                    </div>
                     <div class="priority-text">{{date.priority}}</div>
                 </td>
                 <td>{{date.status}}</td>
             </tr>
         </tbody>
     </table>
-
+    <div *ngIf="cardInfo" class="card fade-in">
+        <div>
+            <p class="title-card">¡Crea tu nuevo filtro!</p>
+            <select class="select-card" [(ngModel)]="filterOption" (change)="selectFilters()">
+                <option value="priority">Priority</option>              
+                <option value="satisfaction">Customer Satisfaction</option>              
+            </select>
+            <select class="select-card " [(ngModel)] = "selectedFilter">
+                <option value="">All</option>
+                <option *ngFor="let option of filtersInfo" [value]="option">{{option}}</option>
+            </select>
+        </div>
+        <div>
+            <button class="confirmation-button" (click)="filterData()">Confirmar</button>
+        </div>
+    </div>
 </div>

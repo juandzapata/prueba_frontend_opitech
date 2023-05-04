@@ -9,12 +9,13 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    TablaComponent
+    TablaComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    
   ],
   providers: [
     HttpClient
