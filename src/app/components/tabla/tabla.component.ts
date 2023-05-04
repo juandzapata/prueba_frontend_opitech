@@ -52,6 +52,9 @@ export class TablaComponent {
     this.dataCount = this.filteredData.length;
   }
 
+  /**
+   * Filtra los datos por el filtro especifico seleccionado por el usuario
+   */
   filterData() {
     if (this.selectedFilter == '') {
       this.filteredData = this.data;
@@ -62,13 +65,17 @@ export class TablaComponent {
         );
       } else{
         this.filteredData = this.data.filter(
-          (item) => item.satisfaction === this.selectedFilter
+          (item) => item.customerSatisfaction === this.selectedFilter
         );
       }
     }
+    this.dataCount = this.filteredData.length;
     this.closeCard();
   }
 
+  /**
+   * Recoge las opciones de los filtros que se mostrarán en el select
+   */
   selectFilters() {
     if (this.filterOption == 'priority') {
       this.filtersInfo = ['High', 'Medium', 'Low'];
@@ -77,10 +84,16 @@ export class TablaComponent {
     }
   }
 
+  /**
+   * Muestra la tarjeta con la información del nuevo filtro
+   */ 
   showCard() {
     this.cardInfo = true;
   }
 
+  /**
+   * Cierra la tarjeta con la información del nuevo filtro
+   */
   closeCard() {
     this.cardInfo = false;
   }

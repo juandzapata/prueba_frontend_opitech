@@ -159,5 +159,145 @@
         "customerSatisfaction": "90%",
         "priority": "Low",
         "status": "Pending"
+    },
+    {
+        "userName": "Roberto Cruz",
+        "subject": "I can't access my account",
+        "customerSatisfaction": "75%",
+        "priority": "High",
+        "status": "Solved"
+    },
+    {
+        "userName": "Maria Garcia",
+        "subject": "I can't find my order",
+        "customerSatisfaction": "50%",
+        "priority": "Low",
+        "status": "Pending"
+    },
+    {
+        "userName": "Pedro Perez",
+        "subject": "The app keeps crashing",
+        "customerSatisfaction": "25%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Sofia Rodriguez",
+        "subject": "The website is down",
+        "customerSatisfaction": "0%",
+        "priority": "High",
+        "status": "Pending"
+    },
+    {
+        "userName": "Ana Martinez",
+        "subject": "I can't make a payment",
+        "customerSatisfaction": "75%",
+        "priority": "Low",
+        "status": "Solved"
+    },
+    {
+        "userName": "Jorge Ramirez",
+        "subject": "I need help with my account settings",
+        "customerSatisfaction": "100%",
+        "priority": "High",
+        "status": "Solved"
+    },
+    {
+        "userName": "Monica Sanchez",
+        "subject": "I didn't receive my confirmation email",
+        "customerSatisfaction": "50%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Diego Martinez",
+        "subject": "I want to cancel my subscription",
+        "customerSatisfaction": "0%",
+        "priority": "Low",
+        "status": "Pending"
+    },
+    {
+        "userName": "Luisa Jimenez",
+        "subject": "I can't add items to my cart",
+        "customerSatisfaction": "100%",
+        "priority": "High",
+        "status": "Solved"
+    },
+    {
+        "userName": "Carmen Ortiz",
+        "subject": "I need to change my shipping address",
+        "customerSatisfaction": "75%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Elena Ramirez",
+        "subject": "I need to update my payment information",
+        "customerSatisfaction": "75%",
+        "priority": "High",
+        "status": "Open"
+    },
+    {
+        "userName": "Miguel Rodriguez",
+        "subject": "The app is not working on my phone",
+        "customerSatisfaction": "50%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Ana Gutierrez",
+        "subject": "I need to return a defective item",
+        "customerSatisfaction": "25%",
+        "priority": "Low",
+        "status": "Pending"
+    },
+    {
+        "userName": "Pedro Gonzalez",
+        "subject": "I'm having trouble resetting my password",
+        "customerSatisfaction": "100%",
+        "priority": "High",
+        "status": "Solved"
+    },
+    {
+        "userName": "Sara Gomez",
+        "subject": "The website is too slow",
+        "customerSatisfaction": "0%",
+        "priority": "High",
+        "status": "Pending"
+    },
+    {
+        "userName": "Julio Hernandez",
+        "subject": "I can't find my account information",
+        "customerSatisfaction": "50%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Luis Perez",
+        "subject": "I need help with my order status",
+        "customerSatisfaction": "75%",
+        "priority": "Low",
+        "status": "Solved"
+    },
+    {
+        "userName": "Daniela Torres",
+        "subject": "The product I received is not what I ordered",
+        "customerSatisfaction": "25%",
+        "priority": "High",
+        "status": "Open"
+    },
+    {
+        "userName": "Carlos Jimenez",
+        "subject": "I can't log in to the mobile app",
+        "customerSatisfaction": "75%",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "userName": "Patricia Ruiz",
+        "subject": "I'm having trouble checking out",
+        "customerSatisfaction": "0%",
+        "priority": "Low",
+        "status": "Pending"
     }
 ]
