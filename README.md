@@ -1,5 +1,7 @@
 # PruebaFrontend
 
+For this test, a solution was proposed to meet the requirements set out earlier. The solution was implemented in Angular, using SCSS as indicated in the initial test. A JSON file was also used to simulate the data that would make up the table.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
 ## Development server
